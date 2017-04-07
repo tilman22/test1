@@ -20,7 +20,7 @@ int main(void)
 {
     std::cout << "Hello World!" << std::endl;
     std::string bla;
-    bla = "jkljsdklfjfdasfdsfsd";
+    bla = "jkljsdklfjfdafdsfsd";
     bla = bla.substr(2, 3) + "!";
     std::cout << "bla = " << bla << std::endl;
     return 0;
