@@ -20,8 +20,8 @@ int main(void)
 {
     std::cout << "Hello World!" << std::endl;
     std::string bla;
-    bla = "jklfjsdklfjsd";
-    bla = bla.substr(2, 3);
+    bla = "jkljsdklfjfdasfdsfsd";
+    bla = bla.substr(2, 3) + "!";
     std::cout << "bla = " << bla << std::endl;
     return 0;
 }
